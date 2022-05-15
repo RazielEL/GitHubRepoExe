@@ -11,7 +11,15 @@ public class Main {
     }
 
     BasicFeatures car = new BasicFeatures();
-    
+    car.color = "red";
+    car.doors = "4";
+    car.engineCapac = "V8";
+    car.headlights = "blue";
+    car.regNo = "tuzik";
+
+    System.out.println("Car is " + car.color + " and it has " + car.doors + " and engine is " + car.engineCapac
+            + " and headlights are " + car.headlights + " and reg number is " + car.regNo);
+
 
 
 
